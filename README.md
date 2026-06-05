@@ -22,13 +22,13 @@
     </td>
     <td width="50%" align="center" valign="top">
       <h3>📈 Arsenal Breakdown</h3>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soulcloude00&layout=compact&theme=transparent&hide_border=true&title_color=F77F00" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=soulcloude00&theme=tokyonight" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
       <h3>💡 Open Source Impact</h3>
-      <img src="https://github-readme-stats.vercel.app/api?username=soulcloude00&show_icons=true&theme=transparent&hide_border=true&title_color=F77F00" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=soulcloude00&theme=tokyonight" width="100%" />
     </td>
     <td width="50%" align="center" valign="top">
       <h3>🔥 The Grind</h3>
