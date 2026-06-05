@@ -48,7 +48,7 @@
       <br>
       <h3>🌍 Community Builder & Residency Lead (Bangalore)</h3>
       <p>
-        <i>"Less coding, more coordinating. I help people collaborate, so together, we can build the future."</i>
+        <i>"The hardest part of building isn't the code, it's the people. I bring brilliant minds together under one roof and make sure the fire never dies."</i>
       </p>
       <div align="center">
         <img src="https://img.shields.io/badge/Workshops_Conducted-10-F77F00?style=for-the-badge" />
