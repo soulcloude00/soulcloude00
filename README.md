@@ -14,10 +14,6 @@
 
 ---
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=soulcloude00&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="Trophies" />
-</div>
-
 <br>
 
 <table align="center" style="border: none;">
@@ -25,7 +21,7 @@
     <td width="50%" align="center" valign="top">
       <h3>🚀 What I'm Building</h3>
       <p align="center">
-        Currently architecting <b>Mori Browser</b>.<br>
+        Currently architecting <b>Soul Browser</b>.<br>
         A zero-memory footprint browser for macOS.<br><br>
         <i>Grinding over 100+ hours to perfect the core architecture.</i>
       </p>
