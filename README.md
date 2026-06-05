@@ -43,6 +43,22 @@
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=soulcloude00&theme=transparent&hide_border=true&title_color=F77F00&ring=F77F00&fire=F77F00" width="100%" />
     </td>
   </tr>
+  <tr>
+    <td colspan="2" align="center" valign="top">
+      <br>
+      <h3>🌍 Community Builder & Residency Lead (Bangalore)</h3>
+      <p>
+        <i>"Less coding, more coordinating. I help people collaborate, so together, we can build the future."</i>
+      </p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Workshops_Conducted-10-F77F00?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Hackathons_Organized-1-F77F00?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Meetups_Hosted-2-F77F00?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Hacker_Houses-Built-F77F00?style=for-the-badge" />
+      </div>
+      <br>
+    </td>
+  </tr>
 </table>
 
 <br>
