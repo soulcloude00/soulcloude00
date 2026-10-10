@@ -1,8 +1,13 @@
 {
   "votes": {
-    "claude": 0,
+    "claude": 1,
     "codex": 0,
     "gemini": 0
   },
-  "last": []
+  "last": [
+    {
+      "agent": "claude",
+      "user": "soulcloude00"
+    }
+  ]
 }
