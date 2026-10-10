@@ -1,0 +1,38 @@
+name: arena-vote
+on:
+  issues:
+    types: [opened]
+concurrency:
+  group: arena
+  cancel-in-progress: false
+jobs:
+  vote:
+    if: startsWith(github.event.issue.title, 'arena|')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Count vote
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          VOTER: ${{ github.event.issue.user.login }}
+        run: |
+          AGENT=$(printf '%s' "$TITLE" | cut -d'|' -f2 | tr -cd 'a-z')
+          echo "AGENT=$AGENT" >> "$GITHUB_ENV"
+          python3 scripts/vote.py "$AGENT" "$VOTER"
+      - name: Commit scoreboard
+        run: |
+          git config user.name "arena-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add votes.json assets/scoreboard.svg
+          git commit -m "arena: @${{ github.event.issue.user.login }} backs ${AGENT}" || exit 0
+          git pull --rebase && git push
+      - name: Reply and close
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body "Vote counted for **${AGENT}**. Head back to [the arena](https://github.com/${GITHUB_REPOSITORY_OWNER}) to see the scoreboard."
+          gh issue close "$ISSUE" --repo "$GITHUB_REPOSITORY"
